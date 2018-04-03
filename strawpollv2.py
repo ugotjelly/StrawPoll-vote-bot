@@ -5,7 +5,7 @@ import math
 from random import randint
 # fresh proxies here: http://proxy-daily.com/
 def read_from_file():
-    lines = [line.rstrip("\n") for line in open("sslproxies.txt")] # open("freeproxy_9896982925.txt")]
+    lines = [line.rstrip("\n") for line in open("proxies.txt")] # open("freeproxy_9896982925.txt")]
     return lines
 """
 def get_proxies():
